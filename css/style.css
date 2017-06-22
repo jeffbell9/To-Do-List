@@ -1,0 +1,43 @@
+body {
+	background-color: #FFEF33;
+	font-size: 1.5em;
+}
+
+.title {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+hr {
+	width: 500px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: .5px solid black;
+}
+
+table {
+	margin: 0 auto;
+}
+
+input[type=checkbox]:checked + span {
+	text-decoration: line-through;
+}
+
+input[type=checkbox] {
+	transform: scale(1.6, 1.6);
+	margin-right: 10px;
+}
+
+input[type=text] {
+	height: 23px;
+	font-size: .6em;
+	margin-right: 10px;
+}
+
+span {
+	font-size: 19px;
+	margin-right: 50px;
+}
