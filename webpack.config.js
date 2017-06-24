@@ -2,9 +2,9 @@ module.exports = {
 	entry: './app.js',
 
 	output: {
-		path: __dirname,
-		publicPath: '/',
-		filename: 'bundle.js'
+		path: path.join(__dirname, 'public'),
+		filename: 'bundle.js',
+		publicPath: '/public/'
 	},
 
 	module: {
