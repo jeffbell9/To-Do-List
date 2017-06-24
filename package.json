@@ -1,12 +1,16 @@
 {
   "name": "todo-list-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple to do list using React",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "prod": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p",
     "start": "webpack-dev-server --inline --hot"
+  },
+  "engines": {
+    "node": "6.10.2"
   },
   "keywords": [],
   "author": "",
