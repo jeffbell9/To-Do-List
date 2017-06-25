@@ -9,6 +9,11 @@ module.exports = {
 		publicPath: '/public/'
 	},
 
+	devServer: {
+		contentBase: "./public",
+		hot: true
+	},
+
 	module: {
 		loaders: [
 			{
