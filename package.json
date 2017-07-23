@@ -10,7 +10,7 @@
     "start": "webpack-dev-server --inline --hot"
   },
   "engines": {
-    "node": "6.10.2"
+    "node": "6.11.1"
   },
   "keywords": [],
   "author": "",
